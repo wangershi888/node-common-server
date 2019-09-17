@@ -1,0 +1,26 @@
+{
+  "name": "node-common-server",
+  "version": "1.0.0",
+  "description": "This is a moker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+    "prd": "cross-env NODE_ENV=produvtion nodemon ./bin.www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwk5052/node-common-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwk5052/node-common-server/issues"
+  },
+  "homepage": "https://github.com/wwk5052/node-common-server#readme",
+  "dependencies": {
+    "cross-env": "^5.2.1",
+    "nodemon": "^1.19.2"
+  }
+}
